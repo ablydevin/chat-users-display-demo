@@ -3,7 +3,7 @@ import MessageBox from "./MessageBox";
 import MemberList from "./MemberList";
 import OrganizationList from "./OrganizationList";
 
-export default async function Chat() {
+export default function Chat() {
   return (
     <div>
       <div className="container">
