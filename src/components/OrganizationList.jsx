@@ -25,6 +25,7 @@ export default function OrganizationList() {
     <div>
       <div>
         <select onChange={organizationChanged}>
+          <option value="foo" key="foo">Foo</option>
           {userMemberships.data?.map((organizationMembership) => (
             <option
               value={organizationMembership.organization.id}
